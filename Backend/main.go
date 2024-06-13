@@ -2,12 +2,11 @@ package main
 
 import (
     "fmt"
-
     "net/http"
 )
 
 func helloWorldHandler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintln(w, "Hello, Aditya World!")
+    fmt.Fprintln(w, "Hello, Ateeque World!")
 }
 
 func main() {
